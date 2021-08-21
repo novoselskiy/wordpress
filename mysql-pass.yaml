@@ -8,7 +8,7 @@
   "spec": {
     "template": {
       "metadata": {
-        "name": "mysql-pass",
+        "name": "password",
         "creationTimestamp": null
       },
       "data": null
