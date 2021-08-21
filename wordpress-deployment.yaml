@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
       #- image: wordpress:4.8-apache
-      - image: wordpress:5.7-php7.4-apache
+      - image: arm64v8/wordpress
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
