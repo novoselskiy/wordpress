@@ -1,7 +1,14 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: wordpress
+---
 apiVersion: v1
 kind: Service
 metadata:
   name: wordpress
+  namespace: wordpress
   labels:
     app: wordpress
 spec:
@@ -16,6 +23,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: wp-pv-claim
+  namespace: wordpress
   labels:
     app: wordpress
 spec:
@@ -29,6 +37,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: wordpress
+  namespace: wordpress
   labels:
     app: wordpress
 spec:
@@ -45,7 +54,6 @@ spec:
         tier: frontend
     spec:
       containers:
-      #- image: wordpress:4.8-apache
       - image: arm64v8/wordpress
         name: wordpress
         env:
