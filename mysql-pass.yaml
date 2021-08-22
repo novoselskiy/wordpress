@@ -3,14 +3,12 @@
   "apiVersion": "bitnami.com/v1alpha1",
   "metadata": {
     "name": "mysql-pass",
-    "namespace": "wordpress",
     "creationTimestamp": null
   },
   "spec": {
     "template": {
       "metadata": {
         "name": "mysql-pass",
-        "namespace": "wordpress",
         "creationTimestamp": null
       },
       "data": null
