@@ -3,18 +3,20 @@
   "apiVersion": "bitnami.com/v1alpha1",
   "metadata": {
     "name": "mysql-pass",
+    "namespace": "default",
     "creationTimestamp": null
   },
   "spec": {
     "template": {
       "metadata": {
         "name": "mysql-pass",
+        "namespace": "default",
         "creationTimestamp": null
       },
       "data": null
     },
     "encryptedData": {
-      "password": "AgDRzmd24qGzd8emi3OoGFUHpfai/8R3c5g/fPUMprjcmCF8t4B2yrZDKYzYOfyR8M/SscZ4NCZ6IXXmX2favPFC9HdNT0gkta6kPLBZmpncWB9H8Y7MoNc1W81Sja4rEz6aSr8KUbbPaIMyONIzWThEDmZONGIz323Rugahb9WVuURVccfT5dCNGzIBZ2+cjlFNaHDVnjf9ZsvY/743SD1+jrizKt2z2K79V01WIolUOID1zESK+f5SWsVX6pv3p3qjViCj/6C/a8nIRlgbCbizyGtQj+IgL5MH7g+vr2F46m9TTq5fFOG0Q7CKazJ1k9weYMwUJu9G6z6B7IMB7qLRNqnetYhtCPXPqP8TmC31D/IY/QSmIS0uRT4EprmIHO1lSqrBAT+vC/1/0mvVe26uDaCsD5ip9OcjKUWS7TXaVImq9pmpu2ZNXtXg+jHoVDF4KuRI7gOxSAciMtO5WK4mhSBebpINikUL4rSLV4pQytX+oQEn9uYf2rGGrGYDwqXO+AyM4IT6eS7DCtpzQ+xuX7K6SUXV1wiOx1bekrzThdnUr6aR0tXL/uLxz6nyBvOb775ND3iCmuULvyYT5baW93S0kHLGcbWvse2NyKaGwSZ6ZHqMzZCjgilF8RPFAw0ckK77p+ijBFGXm+LNgQqYr6/0JVWlEFMqNkQ+KLit4vUBgmfIX/T+0OJfejMaD5e3BuD3tzBJtlk="
+      "password": "AgAYe4Rv52sc+o5W9CoDPqocT164JLNo2D2OUI12sSbhEyKy6sacOFmfMoqhdGzEmicZQkKbF2LOzDRT9R7j+CP7/uaV32h0E2Rt23jMnb53qODDnsn3/47WwGXcMrnojSck1zh8IjRlb5Au5cLOzX6hYw66pmntw2ngJ7jYfv/zhsc/gg5RLdyUkBn/GvLzjE8vPljH5ggAXXMGanJFlMs3FOKKi62etFQrdDSc8pHgZdAORx3+MFZYqxPmnDkLURyQX3DJPUkKvpp+C8vmaZ8ryEY83sj3EApNEJWkwa0Ggcy5mCVOSkRY+wtZhMUIKv57vWZP/GCA20soLgRJYhbDlUSof4X/9/F/ngOJtHDtzM7A4HFbUbJCiNO1wIBbu9LFKAlnR6ep5TD+V8PVYhSRoio1KYI48bXZyfVM0M3VPClwtq7zjpRxlosRyZj+bxFxbZmwNyAYwevFjhIqkMkuWimrTxxq+LBwufYLn4iJ7JHp2Z0m38f5SMPE32sLDssVblG5AdJR8eWNvZVdYPfZT/zPWElmwCJoQkRCwSoWDofHNMkdmambkSiYH+/3Vc+v6d04sGF9w8rSfVpFhQ3/To7rKTdHeV3g+bw1rU0fC+KcwDy52R4dnfcC3Rk1PHWsqTX1l+i6pB4Bv+GKfYBKUUjnnKbXp/b9e6MsUwqeG0ON2kQ8gKVnDq5cZeEIEk+3Ck425U1f4B0="
     }
   }
 }
