@@ -3,20 +3,20 @@
   "apiVersion": "bitnami.com/v1alpha1",
   "metadata": {
     "name": "mysql-pass",
-    "namespace": "default",
+    "namespace": "wordpress",
     "creationTimestamp": null
   },
   "spec": {
     "template": {
       "metadata": {
         "name": "mysql-pass",
-        "namespace": "default",
+        "namespace": "wordpress",
         "creationTimestamp": null
       },
       "data": null
     },
     "encryptedData": {
-      "password": "AgAYe4Rv52sc+o5W9CoDPqocT164JLNo2D2OUI12sSbhEyKy6sacOFmfMoqhdGzEmicZQkKbF2LOzDRT9R7j+CP7/uaV32h0E2Rt23jMnb53qODDnsn3/47WwGXcMrnojSck1zh8IjRlb5Au5cLOzX6hYw66pmntw2ngJ7jYfv/zhsc/gg5RLdyUkBn/GvLzjE8vPljH5ggAXXMGanJFlMs3FOKKi62etFQrdDSc8pHgZdAORx3+MFZYqxPmnDkLURyQX3DJPUkKvpp+C8vmaZ8ryEY83sj3EApNEJWkwa0Ggcy5mCVOSkRY+wtZhMUIKv57vWZP/GCA20soLgRJYhbDlUSof4X/9/F/ngOJtHDtzM7A4HFbUbJCiNO1wIBbu9LFKAlnR6ep5TD+V8PVYhSRoio1KYI48bXZyfVM0M3VPClwtq7zjpRxlosRyZj+bxFxbZmwNyAYwevFjhIqkMkuWimrTxxq+LBwufYLn4iJ7JHp2Z0m38f5SMPE32sLDssVblG5AdJR8eWNvZVdYPfZT/zPWElmwCJoQkRCwSoWDofHNMkdmambkSiYH+/3Vc+v6d04sGF9w8rSfVpFhQ3/To7rKTdHeV3g+bw1rU0fC+KcwDy52R4dnfcC3Rk1PHWsqTX1l+i6pB4Bv+GKfYBKUUjnnKbXp/b9e6MsUwqeG0ON2kQ8gKVnDq5cZeEIEk+3Ck425U1f4B0="
+      "password": "AgB3yENZhe9el12s2C9A4CijzgoEEBtK1rdbicAxfzvd9rbQFFNGW/qXg48X+4u4FQ/0GGg5VG3sZfbcth8b04XHrNKlAYNJFztcwI2E2f8pjCDNDaUbhkCjIq42qqKrg3Ot4u9XNaD5ea57aqJF8WUeVW5ju9H0TaVKL20mRcSeBnFU/u1juIwmiC/l4n8KKxqN3ZRSP9Y7IxdD8BRPBZbTK27LQyDRnl77mD5j+8+2uEN2gu9v001cX/AmBNaCCK6wJjzxcrwdORYY8mx45byxU+g17NaZYef6pF1hhzWuDv1CbKAjLnOpYHwv/tM+zHljAMbx3xlv0Csa7aJ4l36xE9ovgACCHecatDij/ysvH5nGotx6j0gSQNUxhWxM6RGo3zQMbD1zWniUHKSmJcYSQSiisM7QuWfaDxA3xE0+G7kJji+8wg7OWpTbWTFj1dCcErMLvQQ8WosnbkOHpj01ZmAYlRRnMf6vxFaxWAuvsoaxpPO6HILGQmBYEUTAv1TodmDdDaG28x0xlLErF+EE3Swt56aEITY64gUVB51W6cZIxSNTht8Iz+RRQJ5LrcbFiwC2dxVcgp0wXHxWuiItCeGXqfYpEEL9ikT2TgNdds5YbBLacjx+lVF8M44fk0bCoaotDKNNYGjU5Pqlvbgty9sZ9WVxHL/LdWJa1y0RN7ePDCKI8+rnq8gXBWMrugeWf/dLvvpMEts="
     }
   }
 }
