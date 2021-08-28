@@ -48,6 +48,8 @@ spec:
       - image: arm64v8/mariadb
         name: mysql
         env:
+        - name: MYSQL_DATABASE
+          value: wordpress
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
