@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       #- image: arm64v8/wordpress
-      - image: vnovoselskiy/wordpress:0.0.3
+      - image: vnovoselskiy/wordpress:0.0.4
         name: wordpress
         env:
         - name: WORDPRESS_DB_HOST
