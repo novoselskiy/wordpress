@@ -1,6 +1,5 @@
 configurations:
   - configuration/mysql-pass.yaml
 resources:
-  - mysql-pass.yaml
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
